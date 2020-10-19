@@ -1,0 +1,194 @@
+
+#navRow {
+position: absolute;
+z-index: 1;
+left: 19%;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+  }
+
+.jumboText {
+    z-index: 0;
+    position: relative;
+}
+
+
+#navStyleLeft {
+    height: 100vh;
+    background-color: #061326;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 99%;
+    border-bottom-left-radius: 99%;
+    box-shadow: 0 0 10px black;
+    color: white;
+    display: flex;
+}
+
+#navStyleRight {
+    height: 100vh;
+    background-color: #061326;
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+}
+
+
+#mainContent {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 2;
+    position: absolute;
+    margin-left: 25%;
+    height: 100vh;
+}
+
+#portContent {
+    z-index: 2;
+    position: absolute;
+    margin-left: 25%;
+    height: 100vh;
+    
+}
+
+#contactContent {
+    z-index: 2;
+    position: absolute;
+    margin-left: 25%;
+    height: 100vh;
+    width: 80vw;
+}
+
+#contact {
+    padding: 10%;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.popover-title {
+    background: #061326 !important;
+}
+
+
+.slidein, .slideout {
+    max-width: 0;            
+    overflow-x: hidden;
+    -webkit-transition: max-height 0.8s ease-in-out;
+    -moz-transition: max-height 0.8s ease-in-out;
+    -o-transition: max-height 0.8s ease-in-out;
+    transition: max-height 0.8s ease-in-out;
+}
+.slidedout {            
+    max-width: 100%;                    
+}
+
+#row1 {
+    z-index: 5;
+       
+}
+
+.interests {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.border-light {
+    border-style: double;
+}
+
+.textRow {
+    background-color: #061326;
+    /* height: 100vh; */
+    /* width: 100%; */
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+#mainCenterBG {
+    background-color: rgba(6, 19, 38, .7);
+    height: 100vh;
+}
+
+.middleRow {
+    width: 75%;
+}
+
+
+
+.carousel {
+    position: absolute !important;
+    width: 68vw !important;
+    height: 91VH !important;
+}
+
+
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -10%;
+    
+    
+}
+
+.carousel-indicators li {
+    width: unset !important;
+}
+
+.thumbnail {
+    width: 10vw !important;
+    height: auto;
+}
+
+.portCol {
+    width: 82vw;
+}
+
+.overlay {
+    background-color: rgba(6, 19, 38, 0.6);
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:3;
+}
+
+.box{
+    position:absolute;
+    top: 30vh;
+    left: 40vw;
+    /* right:30%; */
+    background-color: rgba(6, 19, 38, 0.9);
+    width: 30%;
+    height: auto;
+    color:#7F7F7F;
+    padding:20px;
+    border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+    z-index: 5;
+}
+
+.box h6 {
+    font-weight: 700;
+}
+
+

@@ -40,18 +40,6 @@ $(".nav-link").click(function () {
 
 });
 
-  
-
-$("#portLink").click(function(){
-    $("#mainContent").addClass("collapse");
-    $("#portContent").removeClass("collapse");
-});
-
-$("#bioLink").click(function(){
-    $("#portContent").addClass("collapse");
-    $("#mainContent").removeClass("collapse");
-});
-
 $('.thumbnail').hover(function(){
     let data = $(this).data('name');
     $('#projectName').text(data);
